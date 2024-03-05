@@ -1,0 +1,24 @@
+{
+	"ts-node": {
+		"files": true
+	},
+	"files": [
+		"@types/index.d.ts"
+	],
+	"compilerOptions": {
+		"declaration": true,
+		"module": "CommonJS",
+		"outDir": "dist",
+		"rootDir": "src",
+		"strict": true,
+		"target": "es2022",
+		"typeRoots": [
+			"./node_modules/@types",
+			"./@types"
+		],
+	},
+	"include": [
+		"src/**/*",
+		"@types/index.d.ts"
+	]
+}

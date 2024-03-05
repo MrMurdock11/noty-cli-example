@@ -1,0 +1,11 @@
+{
+	"extends": "@oclif/prettier-config",
+	"overrides": [
+		{
+			"files": "*.{js,ts}",
+			"options": {
+				"semi": true
+			}
+		}
+	]
+}
