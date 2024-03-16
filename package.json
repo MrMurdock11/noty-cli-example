@@ -5,7 +5,7 @@
 	},
 	"dependencies": {
 		"@iarna/toml": "^2.2.5",
-		"@inquirer/select": "^2.0.0",
+		"@inquirer/select": "^2.2.0",
 		"@oclif/core": "^3",
 		"@oclif/plugin-help": "^6",
 		"@oclif/plugin-plugins": "^4"
